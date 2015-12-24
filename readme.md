@@ -6,6 +6,17 @@
 
 ### Integration 集成
 
+在 build.gradle 文件添加下面依赖（当前属于预览版）：
+
+```
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile 'com.github.whinc:recyclerview-component:-SNAPSHOT'
+}
+```
 
 ### How to Use 使用
 

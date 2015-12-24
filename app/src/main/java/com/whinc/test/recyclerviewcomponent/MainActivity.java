@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Horizontal Grid
         RecyclerView horizontalGrid = (RecyclerView) findViewById(R.id.horizontal_grid_recycler_view);
-        GridLayoutManager horizontalGridLayout = new GridLayoutManager(this, 3, LinearLayoutManager.HORIZONTAL, false);
+        GridLayoutManager horizontalGridLayout = new GridLayoutManager(this, 3, RecyclerView.HORIZONTAL, false);
         horizontalGrid.setLayoutManager(horizontalGridLayout);
         horizontalGrid.setAdapter(new MyAdapter(data));
         RecyclerView.ItemDecoration itemDecoration4 = LinearItemDecoration.builder()
