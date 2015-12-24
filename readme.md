@@ -14,7 +14,9 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.whinc:recyclerview-component:-SNAPSHOT'
+    compile ('com.github.whinc:recyclerview-component:-SNAPSHOT') {
+        transitive = false
+    }
 }
 ```
 
