@@ -28,7 +28,5 @@ dependencies {
     compile project(':lib')
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:recyclerview-v7:23.1.1'
-//    compile ('com.github.whinc:recyclerview-component:-SNAPSHOT') {
-//        transitive = false
-//    }
+//    compile ('com.github.whinc:recyclerview-component:1.0.0') { transitive = false }
 }
